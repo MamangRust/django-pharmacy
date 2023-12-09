@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     "apps.purchase",
     "apps.supplier",
     "apps.sale",
+    "apps.errorpage",
 ]
 
 MIDDLEWARE = [
