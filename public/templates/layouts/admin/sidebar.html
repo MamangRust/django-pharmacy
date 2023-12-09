@@ -186,6 +186,15 @@
             <span>Profile</span>
           </a>
         </li>
+        <li class="sidebar-item">
+          <form id="logoutForm" action="{% url 'logout' %}" method="post">
+            {% csrf_token %}
+            <button type="submit" class="btn btn-link sidebar-link">
+              <i class="bi bi-grid-fill"></i>
+              <span>Logout</span>
+            </button>
+          </form>
+        </li>
       </ul>
     </div>
   </div>
