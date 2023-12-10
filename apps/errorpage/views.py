@@ -2,7 +2,7 @@ from django.shortcuts import render
 
 
 def error_500_view(request):
-    return render(request, "500.html", status=500)
+    return render(request, "errors/500.html", status=500)
 
 
 def error_403_view(request, exception):
